@@ -1,0 +1,8 @@
+name = "TMTM Aircraft"
+author = "teacup, erem2k"
+prefix = "aircraft"
+mainprefix = "tmtm"
+
+[version]
+path = "addons/common/script_version.hpp"
+git_hash = 0
