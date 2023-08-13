@@ -3,4 +3,4 @@
 hemtt
 hemtt.exe
 *.biprivatekey
-.private/
+.private/*
