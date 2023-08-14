@@ -55,7 +55,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class KIA_pilot_Su22_state: DefaultDie
 		{
 			actions="DeadActions";
-			file="tmtm\aircraft\plane_su17\anim\su22_pilot_KIA.rtm";
+			file="tmtm\aircraft\plane_su17m4\anim\su22_pilot_KIA.rtm";
 			speed=1.4;
 			looped="false";
 			terminal=1;
@@ -68,7 +68,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class pilot_Su22_state: Crew
 		{
-			file="tmtm\aircraft\plane_su17\anim\su22_pilot.rtm";
+			file="tmtm\aircraft\plane_su17m4\anim\su22_pilot.rtm";
 			speed=0.066519;
 			interpolateTo[]=
 			{
@@ -91,18 +91,18 @@ class CfgAmmo
 	class Bomb_04_F;
 	class TCP_FAB250_M46: Bomb_04_F
 	{
-		model="\tmtm\aircraft\plane_su17\fab_250_M46.p3d";
-		proxyShape="\tmtm\aircraft\plane_su17\fab_250_M46.p3d";
+		model="\tmtm\aircraft\plane_su17m4\fab_250_M46.p3d";
+		proxyShape="\tmtm\aircraft\plane_su17m4\fab_250_M46.p3d";
 	};
 	class TCP_FAB500_M54: Bomb_04_F
 	{
-		model="\tmtm\aircraft\plane_su17\fab_500_M54.p3d";
-		proxyShape="\tmtm\aircraft\plane_su17\fab_500_M54.p3d";
+		model="\tmtm\aircraft\plane_su17m4\fab_500_M54.p3d";
+		proxyShape="\tmtm\aircraft\plane_su17m4\fab_500_M54.p3d";
 	};
 	class TCP_FAB500_M62: Bomb_04_F
 	{
-		model="\tmtm\aircraft\plane_su17\fab_500_M62.p3d";
-		proxyShape="\tmtm\aircraft\plane_su17\fab_500_M62.p3d";
+		model="\tmtm\aircraft\plane_su17m4\fab_500_M62.p3d";
+		proxyShape="\tmtm\aircraft\plane_su17m4\fab_500_M62.p3d";
 	};
 };
 class CfgMagazines
@@ -177,27 +177,27 @@ class CfgNonAIVehicles
 	class ProxyWeapon;
 	class ProxyR60: ProxyWeapon
 	{
-		model="\tmtm\aircraft\plane_su17\ammo\R60.p3d";
+		model="\tmtm\aircraft\plane_su17m4\ammo\R60.p3d";
 		simulation="maverickweapon";
 	};
 	class ProxyKh25: ProxyWeapon
 	{
-		model="\tmtm\aircraft\plane_su17\ammo\Kh25.p3d";
+		model="\tmtm\aircraft\plane_su17m4\ammo\Kh25.p3d";
 		simulation="maverickweapon";
 	};
 	class Proxy_FAB250_M46: ProxyWeapon
 	{
-		model="\tmtm\aircraft\plane_su17\fab_250_M46.p3d";
+		model="\tmtm\aircraft\plane_su17m4\fab_250_M46.p3d";
 		simulation="maverickweapon";
 	};
 	class Proxy_FAB500_M54: ProxyWeapon
 	{
-		model="\tmtm\aircraft\plane_su17\fab_500_M54.p3d";
+		model="\tmtm\aircraft\plane_su17m4\fab_500_M54.p3d";
 		simulation="maverickweapon";
 	};
 	class Proxy_FAB500_M62: ProxyWeapon
 	{
-		model="\tmtm\aircraft\plane_su17\fab_500_M62.p3d";
+		model="\tmtm\aircraft\plane_su17m4\fab_500_M62.p3d";
 		simulation="maverickweapon";
 	};
 };
@@ -367,9 +367,9 @@ class CfgVehicles
 		crew="O_medic_F";
 		displayName="Su-22";
 		author="teaCup";
-		model="\tmtm\aircraft\plane_su17\TCP_Su22";
-		icon="\tmtm\aircraft\plane_su17\ui\su22_map.paa";
-		picture="\tmtm\aircraft\plane_su17\ui\su22_icon.paa";
+		model="\tmtm\aircraft\plane_su17m4\TCP_Su22";
+		icon="\tmtm\aircraft\plane_su17m4\ui\su22_map.paa";
+		picture="\tmtm\aircraft\plane_su17m4\ui\su22_icon.paa";
 		driverAction="pilot_Su22";
 		precisegetinout=0;
 		getInAction="GetInHigh";
@@ -989,85 +989,85 @@ class CfgVehicles
 			tex[]={};
 			mat[]=
 			{
-				"tmtm\aircraft\plane_su17\tex\fuselage.rvmat",
-				"tmtm\aircraft\plane_su17\tex\fuselage_damage.rvmat",
+				"tmtm\aircraft\plane_su17m4\tex\fuselage.rvmat",
+				"tmtm\aircraft\plane_su17m4\tex\fuselage_damage.rvmat",
 				"A3\Air_F_EPC\Plane_CAS_02\Data\Fighter02_ext01_destruct.rvmat",
-				"tmtm\aircraft\plane_su17\tex\wings.rvmat",
-				"tmtm\aircraft\plane_su17\tex\wings_damage.rvmat",
+				"tmtm\aircraft\plane_su17m4\tex\wings.rvmat",
+				"tmtm\aircraft\plane_su17m4\tex\wings_damage.rvmat",
 				"A3\Air_F_EPC\Plane_CAS_02\Data\Fighter02_ext01_destruct.rvmat",
-				"tmtm\aircraft\plane_su17\tex\glass.rvmat",
+				"tmtm\aircraft\plane_su17m4\tex\glass.rvmat",
 				"A3\Air_F_EPC\Plane_CAS_02\Data\Fighter02_Glass_damage.rvmat",
 				"A3\Air_F_EPC\Plane_CAS_02\Data\Fighter02_Glass_damage.rvmat"
 			};
 		};
 		soundEngineOnInt[]=
 		{
-			"tmtm\aircraft\plane_su17\engine\startup_in",
+			"tmtm\aircraft\plane_su17m4\engine\startup_in",
 			1,
 			1
 		};
 		soundEngineOnExt[]=
 		{
-			"tmtm\aircraft\plane_su17\engine\startup_out",
+			"tmtm\aircraft\plane_su17m4\engine\startup_out",
 			1,
 			1,
 			400
 		};
 		soundEngineOffInt[]=
 		{
-			"tmtm\aircraft\plane_su17\engine\shutdown_in",
+			"tmtm\aircraft\plane_su17m4\engine\shutdown_in",
 			1,
 			1
 		};
 		soundEngineOffExt[]=
 		{
-			"tmtm\aircraft\plane_su17\engine\shutdown_out",
+			"tmtm\aircraft\plane_su17m4\engine\shutdown_out",
 			1,
 			1,
 			400
 		};
 		soundLocked[]=
 		{
-			"tmtm\aircraft\plane_su17\systems\missile_lock",
+			"tmtm\aircraft\plane_su17m4\systems\missile_lock",
 			3,
 			1
 		};
 		soundIncommingMissile[]=
 		{
-			"tmtm\aircraft\plane_su17\systems\incoming_missile",
+			"tmtm\aircraft\plane_su17m4\systems\incoming_missile",
 			3,
 			1
 		};
 		soundDammage[]=
 		{
-			"tmtm\aircraft\plane_su17\systems\Damage",
+			"tmtm\aircraft\plane_su17m4\systems\Damage",
 			4,
 			1
 		};
 		soundGearUp[]=
 		{
-			"tmtm\aircraft\plane_su17\systems\gearup_short",
+			"tmtm\aircraft\plane_su17m4\systems\gearup_short",
 			2,
 			1,
 			75
 		};
 		soundGearDown[]=
 		{
-			"tmtm\aircraft\plane_su17\systems\geardown_short",
+			"tmtm\aircraft\plane_su17m4\systems\geardown_short",
 			2,
 			1,
 			75
 		};
 		soundFlapsUp[]=
 		{
-			"tmtm\aircraft\plane_su17\systems\flapsup_short",
+			"tmtm\aircraft\plane_su17m4\systems\flapsup_short",
 			1.5,
 			1,
 			75
 		};
 		soundFlapsDown[]=
 		{
-			"tmtm\aircraft\plane_su17\systems\flapsdown_short",
+			"tmtm\aircraft\plane_su17m4\systems\flapsdown_short",
 			1.5,
 			1,
 			75
@@ -1078,7 +1078,7 @@ class CfgVehicles
 			{
 				sound[]=
 				{
-					"tmtm\aircraft\plane_su17\engine\EngineLowOut",
+					"tmtm\aircraft\plane_su17m4\engine\EngineLowOut",
 					1,
 					1,
 					400
@@ -1090,7 +1090,7 @@ class CfgVehicles
 			{
 				sound[]=
 				{
-					"tmtm\aircraft\plane_su17\engine\EngineHighOut",
+					"tmtm\aircraft\plane_su17m4\engine\EngineHighOut",
 					1,
 					1,
 					1000
@@ -1102,7 +1102,7 @@ class CfgVehicles
 			{
 				sound[]=
 				{
-					"tmtm\aircraft\plane_su17\engine\ForsageOut",
+					"tmtm\aircraft\plane_su17m4\engine\ForsageOut",
 					1.5,
 					1,
 					2000
@@ -1115,7 +1115,7 @@ class CfgVehicles
 			{
 				sound[]=
 				{
-					"tmtm\aircraft\plane_su17\engine\WindNoiseOut",
+					"tmtm\aircraft\plane_su17m4\engine\WindNoiseOut",
 					3.5,
 					1,
 					1500
@@ -1128,7 +1128,7 @@ class CfgVehicles
 			{
 				sound[]=
 				{
-					"tmtm\aircraft\plane_su17\engine\EngineLowIn",
+					"tmtm\aircraft\plane_su17m4\engine\EngineLowIn",
 					1,
 					1
 				};
@@ -1139,7 +1139,7 @@ class CfgVehicles
 			{
 				sound[]=
 				{
-					"tmtm\aircraft\plane_su17\engine\EngineHighIn",
+					"tmtm\aircraft\plane_su17m4\engine\EngineHighIn",
 					1,
 					1
 				};
@@ -1150,7 +1150,7 @@ class CfgVehicles
 			{
 				sound[]=
 				{
-					"tmtm\aircraft\plane_su17\engine\ForsageIn",
+					"tmtm\aircraft\plane_su17m4\engine\ForsageIn",
 					1,
 					1
 				};
@@ -1161,7 +1161,7 @@ class CfgVehicles
 			{
 				sound[]=
 				{
-					"tmtm\aircraft\plane_su17\systems\cockpit",
+					"tmtm\aircraft\plane_su17m4\systems\cockpit",
 					1,
 					2
 				};
@@ -1283,8 +1283,8 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"tmtm\aircraft\plane_su17\tex\fuselage_co.paa",
-			"tmtm\aircraft\plane_su17\tex\wings_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\fuselage_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\wings_co.paa",
 			"",
 			"",
 			"",
@@ -1331,7 +1331,7 @@ class CfgVehicles
 	class TCP_Su22_wreck: PlaneWreck
 	{
 		scope=1;
-		model="\tmtm\aircraft\plane_su17\TCP_Su22_Wreck";
+		model="\tmtm\aircraft\plane_su17m4\TCP_Su22_Wreck";
 		typicalCargo[]={};
 		irTarget=0;
 		transportAmmo=0;
@@ -1347,18 +1347,18 @@ class CfgVehicles
 		displayName="Su-22 (HU305)";
 		hiddenSelectionsTextures[]=
 		{
-			"tmtm\aircraft\plane_su17\tex\fuselage_co.paa",
-			"tmtm\aircraft\plane_su17\tex\wings_co.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_305_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_305_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_305_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_305_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_305_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_305_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\fuselage_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\wings_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_305_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_305_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_305_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_305_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_305_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_305_ca.paa",
 			"",
 			"",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_305_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_305_ca.paa"
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_305_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_305_ca.paa"
 		};
 	};
 	class TCP_Su22_HU312: TCP_Su22
@@ -1366,18 +1366,18 @@ class CfgVehicles
 		displayName="Su-22 (HU312)";
 		hiddenSelectionsTextures[]=
 		{
-			"tmtm\aircraft\plane_su17\tex\fuselage_co.paa",
-			"tmtm\aircraft\plane_su17\tex\wings_co.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_312_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_312_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_312_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_312_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\fuselage_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\wings_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_312_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_312_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_312_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_312_ca.paa",
 			"",
 			"",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_312_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_312_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_312_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_HU_312_ca.paa"
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_312_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_312_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_312_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_HU_312_ca.paa"
 		};
 	};
 	class TCP_Su22_PL3215: TCP_Su22
@@ -1385,18 +1385,18 @@ class CfgVehicles
 		displayName="Su-22 (PL3215)";
 		hiddenSelectionsTextures[]=
 		{
-			"tmtm\aircraft\plane_su17\tex\fuselage_PL_co.paa",
-			"tmtm\aircraft\plane_su17\tex\wings_PL_co.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_PL_3215_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_PL_3215_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_PL_3215_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_PL_3215_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\fuselage_PL_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\wings_PL_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_PL_3215_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_PL_3215_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_PL_3215_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_PL_3215_ca.paa",
 			"",
 			"",
-			"tmtm\aircraft\plane_su17\tex\markings_PL_3215_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_PL_3215_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_PL_3215_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_PL_3215_ca.paa"
+			"tmtm\aircraft\plane_su17m4\tex\markings_PL_3215_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_PL_3215_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_PL_3215_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_PL_3215_ca.paa"
 		};
 	};
 	class TCP_Su22_SY: TCP_Su22
@@ -1404,12 +1404,12 @@ class CfgVehicles
 		displayName="Su-22 (SY)";
 		hiddenSelectionsTextures[]=
 		{
-			"tmtm\aircraft\plane_su17\tex\fuselage_SY_co.paa",
-			"tmtm\aircraft\plane_su17\tex\wings_SY_co.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_SY_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_SY_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_SY_ca.paa",
-			"tmtm\aircraft\plane_su17\tex\markings_SY_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\fuselage_SY_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\wings_SY_co.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_SY_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_SY_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_SY_ca.paa",
+			"tmtm\aircraft\plane_su17m4\tex\markings_SY_ca.paa",
 			"",
 			"",
 			"",
