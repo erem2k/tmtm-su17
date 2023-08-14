@@ -6,12 +6,3 @@ mainprefix = "tmtm"
 [version]
 path = "addons/common/script_version.hpp"
 git_hash = 0
-
-[binarize]
-enabled = true
-exclude = [
-    "addons/plane_su17m4/*.p3d",
-    "addons/plane_su17m4/anim/*.rtm",
-    "addons/plane_su17m4/brakechute/*.p3d",
-    "addons/plane_su17m4/brakechute/*.rtm"
-]

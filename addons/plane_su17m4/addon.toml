@@ -1,0 +1,8 @@
+[binarize]
+enabled = true
+exclude = [
+    "*.p3d",
+    "anim/*.rtm",
+    "brakechute/*.p3d",
+    "brakechute/*.rtm"
+]
