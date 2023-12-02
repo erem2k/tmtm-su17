@@ -5,7 +5,7 @@ class CfgPatches {
 		name = COMPONENT_NAME;
 		units[] = {
 			"TCP_Su22",
-			"TCP_Su22_BreakChute",
+			"TCP_Su22_BrakeChute",
 			"TCP_Su22_HU305",
 			"TCP_Su22_HU312",
 			"TCP_Su22_PL3215",
@@ -21,7 +21,8 @@ class CfgPatches {
 		};
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
-			"A3_Air_F_EPC_Plane_CAS_02"
+			"A3_Air_F_EPC_Plane_CAS_02",
+			"A3_Animals_F_Rabbit"
 		};
 		author = MOD_AUTHOR;
 		url = MOD_URL;

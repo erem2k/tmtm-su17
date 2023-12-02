@@ -1084,4 +1084,19 @@ class CfgVehicles
 			""
 		};
 	};
+
+	class Rabbit_F;
+	class TCP_Su22_BrakeChute: Rabbit_F
+	{
+		model="TCP_Su22\BrakeChute\TCP_Su22_BrakeChute.p3d";
+		moves="TCP_CfgMovesBrakeChute";
+		mapSize=15;
+		featureSize=10;
+		hiddenSelections[]=
+		{
+			"Canopy",
+			"Ropes",
+			"Cable"
+		};
+	};
 };
