@@ -47,19 +47,11 @@ class CfgVehicles
 		weapons[]=
 		{
 			"TCP_twin_NR30",
-			"TCP_Kh25",
-			"TCP_FAB500",
-			"TCP_UB40",
-			"TCP_R60",
 			"TCP_CMFlareLauncher"
 		};
 		magazines[]=
 		{
 			"500Rnd_Cannon_30mm_Plane_CAS_02_F",
-			"2Rnd_Missile_AA_03_F",
-			"TCP_2Rnd_Missile_AGM_01_F",
-			"TCP_4Rnd_FAB500_M54",
-			"TCP_40Rnd_Rocket_03_HE_F",
 			"120Rnd_CMFlare_Chaff_Magazine"
 		};
 		class AnimationSources: AnimationSources
